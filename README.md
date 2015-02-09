@@ -1,7 +1,6 @@
-# faye-client
+[![Bower version](https://badge.fury.io/bo/faye-client.svg)](http://badge.fury.io/bo/faye-client)
 
-faye-bower
-==========
+# faye-client
 
 #WTF?
 
