@@ -16,7 +16,7 @@ Faye's repo owner [didn't want][3] to take any deals with bower.
 And [faye-browser][4] repo did't maintained any more. And [didn't approve][5](still opened from oct 2014) pull-requests.
 Also faye-browser didn't contain faye-browser-min.js.map (but contain a link in sources).
 
-#What if i need older version of Faye?
+#What if I need the older version of Faye?
 In this case please use [faye-browser][4]
 
 [1]: https://github.com/faye/faye
