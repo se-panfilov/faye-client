@@ -1,0 +1,9 @@
+{
+  "name": "faye_src",
+  "private": "true",
+  "version": "1.1.1",
+  "license": "MIT",
+  "devDependencies": {
+    "faye": "^1.1.1"
+  }
+}

@@ -2,7 +2,7 @@
 'use strict';
 
 var Faye = {
-  VERSION:          '1.1.0',
+  VERSION:          '1.1.1',
 
   BAYEUX_VERSION:   '1.0',
   ID_LENGTH:        160,
@@ -738,6 +738,7 @@ Faye.Error.publishFailed = function() {
 Faye.Error.serverError = function() {
   return new this(500, arguments, 'Internal server error').toString();
 };
+
 
 Faye.Deferrable = {
   then: function(callback, errback) {
@@ -2565,9 +2566,9 @@ Faye.Transport.EventSource = Faye.extend(Faye.Class(Faye.Transport, {
     var sockets = dispatcher.transports.eventsource = dispatcher.transports.eventsource || {},
         id      = dispatcher.clientId;
 
-    endpoint = Faye.copyObject(endpoint);
-    endpoint.pathname += '/' + (id || '');
-    var url = Faye.URI.stringify(endpoint);
+    var url = Faye.copyObject(endpoint);
+    url.pathname += '/' + (id || '');
+    url = Faye.URI.stringify(url);
 
     sockets[url] = sockets[url] || new this(dispatcher, endpoint);
     return sockets[url];
