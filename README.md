@@ -1,4 +1,5 @@
 [![Bower version](https://badge.fury.io/bo/faye-client.svg)](http://badge.fury.io/bo/faye-client)
+[![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/Light241/faye-client/blob/master/LICENSE)
 
 # faye-client
 
@@ -12,12 +13,13 @@ Distribution of [faye][1] (browser side only) for [bower][2] package manager
 
 #Why new repo?
 Faye's repo owner [didn't want][3] to take any deals with bower.
-
-And [faye-browser][4] repo did't maintained any more. And [didn't approve][5](still opened from oct 2014) pull-requests.
-Also faye-browser didn't contain faye-browser-min.js.map (but contain a link in sources).
+And [faye-browser][4] repo did't maintained any more. 
 
 #What if I need the older version of Faye?
 In this case please use [faye-browser][4]
+
+#License
+MIT
 
 [1]: https://github.com/faye/faye
 [2]: https://bower.io/
