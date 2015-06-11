@@ -26,3 +26,7 @@ MIT
 [3]: https://github.com/faye/faye/issues/242
 [4]: https://github.com/hackers4peace/faye-browser
 [5]: https://github.com/hackers4peace/faye-browser/pull/3
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Light241/faye-client/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
