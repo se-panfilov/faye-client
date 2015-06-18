@@ -1,18 +1,19 @@
 {
   "name": "faye-client",
-  "version": "1.1.1",
+  "version": "1.1.2-beta",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Light241/faye-client.git"
+    "url": "git://github.com/se-panfilov/faye-client.git"
   },
-  "homepage": "https://github.com/Light241/faye-client",
+  "homepage": "https://github.com/se-panfilov/faye-client",
   "bugs": {
-    "url": "https://github.com/Light241/faye-client/issues"
+    "url": "https://github.com/se-panfilov/faye-client/issues"
   },
   "authors": [
     {
       "name": "Sergey Panfilov",
-      "email": "se-panfilov@ya.ru"
+      "email": "se-panfilov@ya.ru",
+      "url": "https://se-panfilov.github.io"
     }
   ],
   "description": "Distribution of faye-browser for bower package manager",

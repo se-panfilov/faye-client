@@ -1,5 +1,5 @@
 [![Bower version](https://badge.fury.io/bo/faye-client.svg)](http://badge.fury.io/bo/faye-client)
-[![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/Light241/faye-client/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/se-panfilov/faye-client/blob/master/LICENSE)
 
 # faye-client
 
